@@ -36,12 +36,10 @@
 ```
 <property name="eclipselink.ddl-generation" value="create-tables
 <property name="eclipselink.ddl-generation.output-mode" value="database"/>
-```
-```
 </properties>
         <class>modelo.TU_CLASE_JAVA</class>
     </persistence-unit>
-    ```
+```
 9. Creamos el servlet, Nuevo> RestfullWebservice from entity
 
 10.  Borramos el facade ya que vamos a utilizar nuestro gestor
