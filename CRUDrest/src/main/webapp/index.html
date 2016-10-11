@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="jquery-3.1.1.min.js"></script>        
+        <script src="main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <div id="wrapper">
+            <h1>Socios REST</h1>
+            <br />
+            <br />
+            <div id="addDevice">
+                <div class="button"> <a href="#" OnClick="showForm()">Agregar Socio</a> </div>
+                <form id="addDeviceForm">
+                    <h3>Nuevo Socio</h3>
+                    <span>Nombre: <input type="text" name="s_name" id="s_name"></span>
+                    <span>Telefono: <input type="number" name="s_tel" id="s_tel"></span>
+                    
+
+                    <input type="button" class="button" value="Add" onclick=formSubmit()>
+                    <input type="reset" class="button" value="Cancel" onclick=hideForm()>
+                </form>
+            </div>
+            <br />
+            <h3>Todos los socios:</h3>
+            <div id="content">
+            </div>
+        </div>
+
+    </body>
+</html>
